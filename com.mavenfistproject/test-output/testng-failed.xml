@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ojt_August_selenium.LoginPageTestCases">
+        <methods>
+          <include name="setup"/>
+          <include name="courseName_test14"/>
+          <include name="teardowntest"/>
+        </methods>
+      </class> <!-- ojt_August_selenium.LoginPageTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
